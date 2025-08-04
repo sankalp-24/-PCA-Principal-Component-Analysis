@@ -1,27 +1,38 @@
-# -PCA-Principal-Component-Analysis
+📉 Dimensionality Reduction for Property Price Prediction – PCA
 
-Dimensionality Reduction Technique
+📌 Abstract
 
-
-ABSTRACT : A key challenge for property sellers is to determine the sale price of the property. The ability to predict the exact property value is beneficial for property investors as well as for buyers to plan their finances according to the price trend. The property prices depend on the number of features like the property area, basement square footage, year built, number of bedrooms, and others. The prices can be predicted more accurately if the number of predictors is less. Several dimension reduction techniques are being applied to decrease this number of predictors.
-
-
-PROBLEM STATEMENT : A key challenge for property sellers is to determine the sale price of the property. The ability to predict the exact property value is beneficial for property investors as well as for buyers to plan their finances according to the price trend. The property prices depend on the number of features like the property area, basement square footage, year built, number of bedrooms, and others. The prices can be predicted more accurately if the number of predictors is less. Several dimension reduction techniques are being applied to decrease this number of predictors.
+Accurately predicting property sale prices is a challenge for sellers, buyers, and investors. Property prices are influenced by multiple features such as area, basement size, year built, number of bedrooms, and more.
+While more features can potentially improve accuracy, high-dimensional data can lead to complexity, redundancy, and overfitting. This project applies dimensionality reduction techniques to retain essential information while reducing predictors, resulting in more efficient modeling and clearer insights.
 
 
-APPROACH : To reduce the dimensionality of a dataset while preserving the most important information for better visualization and model efficiency.
+🎯 Problem Statement
 
+Reduce the number of predictors in a property dataset while preserving essential information to improve visualization, model efficiency, and interpretability.
 
-Tools & Libraries: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+⸻
 
+⚙ Approach
 
-Key Steps:
-	•	Standardized the dataset using feature scaling to ensure all variables contribute equally.
-	•	Applied PCA to transform high-dimensional data into principal components.
-	•	Visualized explained variance ratio to determine the number of components to retain.
-	•	Plotted 2D and 3D projections of the data using the top principal components.
-	•	Analyzed how dimensionality reduction impacts interpretability and performance of downstream models.
+Used Principal Component Analysis (PCA) to reduce dataset dimensions while retaining maximum variance for better downstream prediction performance.
 
- 
-Outcome:Effectively reduced the dataset to fewer dimensions, improving model efficiency and providing better insight into data structure without significant loss of information.
+Tools & Libraries:
+Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn
 
+⸻
+
+🔑 Key Steps
+	•	⚖ Feature Scaling – Standardized the dataset to ensure all variables contribute equally.
+	•	🔍 PCA Transformation – Reduced high-dimensional data into principal components.
+	•	📊 Variance Analysis – Visualized explained variance ratio to decide the number of components to retain.
+	•	🎨 Visualization – Plotted 2D & 3D projections using the top principal components.
+	•	📈 Impact Assessment – Analyzed the effect of dimensionality reduction on model efficiency and interpretability.
+
+⸻
+
+🏆 Outcome
+
+Successfully reduced the dataset to fewer dimensions without significant loss of information, improving:
+	•	✅ Model training efficiency
+	•	✅ Data visualization clarity
+	•	✅ Feature interpretability
